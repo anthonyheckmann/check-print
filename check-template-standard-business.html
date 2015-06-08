@@ -105,6 +105,19 @@
 </script>
 
 <style>
+
+
+	@font-face 
+	{
+  		font-family: 'MICR';
+  		src: url('MICR.ttf') format('truetype');  
+  		/*url('myfont.woff2') format('woff2'),
+       		url('myfont.woff') format('woff'),*/
+	}
+	div#micr {
+  		font-family: 'MICR', Fallback, sans-serif;
+	}
+	
 	div
 	{
 		position: absolute;
@@ -281,6 +294,9 @@
 	</div>
 	<div id="check-3-memo-box">
 	
+	</div>
+	<div id="micr">
+		1234214
 	</div>
 </body>
 </html>
